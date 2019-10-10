@@ -14,9 +14,13 @@ TABLE OF CONTENTS:
 */
 
 /* 0. Reset ================================= */
-@import 'reset';
+//@import 'reset';
+@import 'fonts';
+@import 'media';
 
 
+
+ 
 /* 1. Main Layout ================================= */
 
 * {
@@ -24,80 +28,111 @@ TABLE OF CONTENTS:
 }
 
 body {
-	background: #ccc;
+	font-family: $fontMain;
 }
 
+.col-box{
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	p{
+		margin-top:1%;
+		font-size:1.3em;
+		color:lightgray;
+	}
+}
 
+button{
+	border:none;
+	background-color:transparent;
+	background-image: url("../img/border-blk.png");
+	background-size: cover;
+	width:150px;
+	height: 55px;
+}
 
+.whitebutton{
+	background-image: url("../img/border-wht.png");
+	color:white;
+	
+}
 
 /* 2. Content ================================= */
 
-.floating-box {
-	position: relative;
-	font-family: sans-serif;
-	width: 90%;
-	max-width: 500px;
-	margin: 140px auto;
-	padding: 30px 20px 30px 30px;
-	.foreground {
-		position: relative;
-		z-index: 2;
-		transform: translateZ(100px);
-	}
-	.background {
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		left: 0;
-		top: 0;
-		background: white;
-		z-index: 1;
-		// perspective: 2000px;
-		transition: 0.2s;
-		transform: translateX(20px) perspective(600px) rotateY(15deg);
-	}
-	&:hover .background {
-		transform: translateX(-30px) perspective(600px) rotateY(-15deg);		
-	}
-	.logo {
-		position: absolute;
-		top: -30px;
-		width: 60px;
-		z-index: 2;
-		transform: translateZ(100px);
-		transition: 0.3s;
 
-		&:hover {
-			transform: rotate(-0.4turn)
+.s1{
+
+	.col-box0{
+		img{
+			width: 100%;
 		}
 	}
-	h1 {
-		font-weight: 700;
-		font-size: 22pt;
-		margin: 15px 0;
+	.col-box1{
+		background-image: url("../img/redFull.png");
+		background-size: cover;
+		background-position-y: 30%;
+
+		@media#{$tablet}{
+			background-size: 200%;
+			background-position-x: 20%;
+		}
+		img{
+			width: 50%;
+		}
+		@media#{$tablet}{
+			height: 50%;
+		}
 	}
-	p {
-		color: #777;
-		// margin: 10px 0;
-		line-height: 140%;
+
+	.col-box2{
+		background-color: rgb(16, 16, 67);
+		img{
+			width:19%;
+		}
+		@media#{$tablet}{
+			height: 50%;
+		}
 	}
-	p.github {
-		font-size: 0.8em;
+}
+
+.s2{
+	padding:3%;
+	.col-box0{
+		padding:2%;
+	}
+	.col-box1{
 		
-		a {
-			opacity: 0.2;
-			transition: 0.3s;
-			&:hover {
-				opacity: 1;
-				color: red;
-			}
+		p{
+			width: 85%;
 		}
 	}
-	code {
-		position: absolute;
-		top: 20px;
-		right: 20px;
-		font-size: 0.8em;
-		opacity: 0.2;
+	.col-box2{
+		
+		.img-shoe{
+			margin:5%;
+			max-width: 100%;
+		}
+	}
+}
+
+.s3{
+	padding:3%;
+	color:white;
+	.col-box0{
+		padding:2%;
+	}
+	.col-box1{
+		p{
+			width: 72%;
+		}
+	}
+	.col-box2{
+		display: flex;
+		justify-content: center;
+
+		.img-mask{
+			padding:1%;
+		}
 	}
 }
