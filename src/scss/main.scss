@@ -18,7 +18,7 @@ TABLE OF CONTENTS:
 @import 'fonts';
 @import 'colors';
 @import 'media';
-
+@import'nav';
 
 
  
@@ -32,90 +32,6 @@ body {
 	font-family: $fontMain;
 }
 
-nav{
-	background-color:$AllStar_Red;
-	@media#{$desktop}{
-		background-color:$AllStar_Black;
-	}
-
-	.sN-assets{
-		//background-color: pink;
-		.shop-icons{
-			//background-color: pink;
-			width:20%;
-			@media#{$desktop}{
-				width:15%;
-			}
-			@media#{$XLdesktop}{
-				width:10%;
-			}
-			img{
-				width:100%;
-			}
-		
-		}
-
-		.user{
-			//background-color: green;
-			color:$AllStar_White;
-			width:40%;
-			font-size: 1.6em;
-
-			.logout{
-				font-size: .8em;
-
-				a{
-					color:$AllStar_White;
-				}
-			}
-
-			img{
-				width:100%;
-			}
-		}
-
-		.nav-logo{
-			//background-color: blue;
-			width:40%;
-			@media#{$XLdesktop}{
-				width:35%;
-			}
-			img{
-				width:100%;
-			}
-		}
-		
-	}
-
-	.sN-hamburger{
-		.hamburger{
-			width:50%;
-			img{
-				width:100%;
-			}
-			@media#{$desktop}{
-				max-width:40%;
-			}
-			@media#{$XLdesktop}{
-				max-width:30%;
-			}
-		}
-	}
-
-
-}
-.col-box{
-	display:flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	p{
-		margin-top:1%;
-		font-size:1.3em;
-		color:lightgray;
-	}
-}
-
 button{
 	border:none;
 	background-color:transparent;
@@ -124,12 +40,6 @@ button{
 	width:150px;
 	height: 55px;
 	font-size:1.2em;
-}
-
-.whitebutton{
-	background-image: url("../img/border-wht.png");
-	color:white;
-	
 }
 
 footer{
@@ -158,6 +68,18 @@ footer{
 body.pg1-home{
 
 	.s1{
+
+		.col-box{
+			display:flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			p{
+				margin-top:1%;
+				font-size:1.3em;
+				color:lightgray;
+			}
+		}
 
 		.col-box0{
 			background-color :$AllStar_Red;
@@ -232,6 +154,11 @@ body.pg1-home{
 			.img-mask{
 				padding:1%;
 			}
+		}
+		.whitebutton{
+			background-image: url("../img/border-wht.png");
+			color:white;
+			
 		}
 	}
 }

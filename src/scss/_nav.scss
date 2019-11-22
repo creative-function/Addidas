@@ -1,0 +1,63 @@
+nav{
+	background-color:$AllStar_Red;
+	@media#{$desktop}{
+		background-color:$AllStar_Black;
+	}
+
+	.sN-assets{
+		//background-color: pink;
+		.shop-icons{
+			//background-color: pink;
+			width:20%;
+			@media#{$desktop}{
+				width:10%;
+			}
+			img{
+				width:100%;
+			}
+		
+		}
+
+		.user{
+			//background-color: green;
+			color:$AllStar_White;
+			width:40%;
+			font-size: 1.6em;
+
+			.logout{
+				font-size: .8em;
+
+				a{
+					color:$AllStar_White;
+				}
+			}
+
+			img{
+				width:100%;
+			}
+		}
+
+		.nav-logo{
+			//background-color: blue;
+			width:35%;
+			img{
+				width:100%;
+			}
+		}
+		
+	}
+
+	.sN-hamburger{
+		.hamburger{
+			width:50%;
+			img{
+				width:100%;
+			}
+			@media#{$desktop}{
+				max-width:30%;
+			}
+		}
+	}
+
+
+}

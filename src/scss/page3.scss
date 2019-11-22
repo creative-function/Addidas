@@ -1,0 +1,49 @@
+@import 'main';
+
+#page3-shopping{
+
+    .col-box1{
+   //background-color:hotpink;
+        display: flex;
+        justify-content: center;
+       .checkout-arrows{
+           margin:2% 0;
+           img{
+               width:100%;
+           }
+       }
+        .label{
+            //background-color:goldenrod;
+            min-width: 50%;
+            width:90%;
+            display: flex;
+            justify-content: space-between;
+            align-self: center;
+            font-size: 1.3em;
+            margin: 2% 0;
+
+            input,select{
+                width:60%;
+            }
+        }
+    }
+
+    .col-box2{
+
+        form{
+            height: 400px;
+            width: 100%;
+            //background-color: hotpink;
+
+            label{
+                width:100%;
+               // background-color: goldenrod;
+            }
+            button{
+                background-color: $AllStar_Red;
+                color:$AllStar_White;
+                background-image: none;
+            }
+        }
+    }
+}

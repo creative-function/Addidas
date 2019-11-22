@@ -225,4 +225,50 @@ body.pg1-home .s3 .whitebutton {
 	color: white;
 }
 
-/*# sourceMappingURL=main.css.map */
+#page3-shopping .col-box1 {
+	display: -webkit-box;
+	display: flex;
+	-webkit-box-pack: center;
+	        justify-content: center;
+}
+
+#page3-shopping .col-box1 .checkout-arrows {
+	margin: 2% 0;
+}
+
+#page3-shopping .col-box1 .checkout-arrows img {
+	width: 100%;
+}
+
+#page3-shopping .col-box1 .label {
+	min-width: 50%;
+	width: 90%;
+	display: -webkit-box;
+	display: flex;
+	-webkit-box-pack: justify;
+	        justify-content: space-between;
+	align-self: center;
+	font-size: 1.3em;
+	margin: 2% 0;
+}
+
+#page3-shopping .col-box1 .label input, #page3-shopping .col-box1 .label select {
+	width: 60%;
+}
+
+#page3-shopping .col-box2 form {
+	height: 400px;
+	width: 100%;
+}
+
+#page3-shopping .col-box2 form label {
+	width: 100%;
+}
+
+#page3-shopping .col-box2 form button {
+	background-color: #e02222;
+	color: #ffffff;
+	background-image: none;
+}
+
+/*# sourceMappingURL=page3.css.map */

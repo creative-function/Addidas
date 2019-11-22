@@ -14,15 +14,6 @@ TABLE OF CONTENTS:
 ==============================================
 */
 /* 0. Reset ================================= */
-/* 1. Main Layout ================================= */
-* {
-	box-sizing: border-box;
-}
-
-body {
-	font-family: futura-pt, sans-serif;
-}
-
 nav {
 	background-color: #e02222;
 }
@@ -38,12 +29,6 @@ nav .sN-assets .shop-icons {
 }
 
 @media (min-width: 770px) {
-	nav .sN-assets .shop-icons {
-		width: 15%;
-	}
-}
-
-@media (min-width: 1360px) {
 	nav .sN-assets .shop-icons {
 		width: 10%;
 	}
@@ -72,13 +57,7 @@ nav .sN-assets .user img {
 }
 
 nav .sN-assets .nav-logo {
-	width: 40%;
-}
-
-@media (min-width: 1360px) {
-	nav .sN-assets .nav-logo {
-		width: 35%;
-	}
+	width: 35%;
 }
 
 nav .sN-assets .nav-logo img {
@@ -95,32 +74,17 @@ nav .sN-hamburger .hamburger img {
 
 @media (min-width: 770px) {
 	nav .sN-hamburger .hamburger {
-		max-width: 40%;
-	}
-}
-
-@media (min-width: 1360px) {
-	nav .sN-hamburger .hamburger {
 		max-width: 30%;
 	}
 }
 
-.col-box {
-	display: -webkit-box;
-	display: flex;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	        flex-direction: column;
-	-webkit-box-align: center;
-	        align-items: center;
-	-webkit-box-pack: center;
-	        justify-content: center;
+/* 1. Main Layout ================================= */
+* {
+	box-sizing: border-box;
 }
 
-.col-box p {
-	margin-top: 1%;
-	font-size: 1.3em;
-	color: lightgray;
+body {
+	font-family: futura-pt, sans-serif;
 }
 
 button {
@@ -133,12 +97,43 @@ button {
 	font-size: 1.2em;
 }
 
-.whitebutton {
-	background-image: url("../img/border-wht.png");
-	color: white;
+footer .copyright {
+	width: 40%;
+	text-align: center;
+	color: #929292;
+	font-size: .8em;
+}
+
+@media (min-width: 600px) {
+	footer .copyright {
+		width: 100%;
+		text-align: left;
+	}
+}
+
+footer .media-icons img {
+	width: 100%;
 }
 
 /* 2. Content ================================= */
+body.pg1-home .s1 .col-box {
+	display: -webkit-box;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	        justify-content: center;
+}
+
+body.pg1-home .s1 .col-box p {
+	margin-top: 1%;
+	font-size: 1.3em;
+	color: lightgray;
+}
+
 body.pg1-home .s1 .col-box0 {
 	background-color: #e02222;
 }
@@ -224,6 +219,75 @@ body.pg1-home .s3 .col-box2 {
 
 body.pg1-home .s3 .col-box2 .img-mask {
 	padding: 1%;
+}
+
+body.pg1-home .s3 .whitebutton {
+	background-image: url("../img/border-wht.png");
+	color: white;
+}
+
+nav {
+	background-color: #e02222;
+}
+
+@media (min-width: 770px) {
+	nav {
+		background-color: #000000;
+	}
+}
+
+nav .sN-assets .shop-icons {
+	width: 20%;
+}
+
+@media (min-width: 770px) {
+	nav .sN-assets .shop-icons {
+		width: 10%;
+	}
+}
+
+nav .sN-assets .shop-icons img {
+	width: 100%;
+}
+
+nav .sN-assets .user {
+	color: #ffffff;
+	width: 40%;
+	font-size: 1.6em;
+}
+
+nav .sN-assets .user .logout {
+	font-size: .8em;
+}
+
+nav .sN-assets .user .logout a {
+	color: #ffffff;
+}
+
+nav .sN-assets .user img {
+	width: 100%;
+}
+
+nav .sN-assets .nav-logo {
+	width: 35%;
+}
+
+nav .sN-assets .nav-logo img {
+	width: 100%;
+}
+
+nav .sN-hamburger .hamburger {
+	width: 50%;
+}
+
+nav .sN-hamburger .hamburger img {
+	width: 100%;
+}
+
+@media (min-width: 770px) {
+	nav .sN-hamburger .hamburger {
+		max-width: 30%;
+	}
 }
 
 #page2-shopping #aside-mobile .col-mobile-menu span {
