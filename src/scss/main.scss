@@ -59,7 +59,7 @@ nav{
 			//background-color: green;
 			color:$AllStar_White;
 			width:40%;
-			font-size: 1.7em;
+			font-size: 1.6em;
 
 			.logout{
 				font-size: .8em;
@@ -130,6 +130,27 @@ button{
 	background-image: url("../img/border-wht.png");
 	color:white;
 	
+}
+
+footer{
+	.copyright{
+		//background-color: hotpink;
+		width: 40%;
+		text-align: center;
+		color:$AllStar_Gray;
+		font-size:.8em;
+
+		@media#{$tablet}{
+			width:100%;
+			text-align: left;
+		}
+	}
+	.media-icons{
+		//background-color: pink;
+		img{
+			width: 100%;
+		}
+	}
 }
 
 /* 2. Content ================================= */

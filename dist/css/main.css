@@ -55,7 +55,7 @@ nav .sN-assets .shop-icons img {
 nav .sN-assets .user {
 	color: #ffffff;
 	width: 40%;
-	font-size: 1.7em;
+	font-size: 1.6em;
 }
 
 nav .sN-assets .user .logout {
@@ -135,6 +135,24 @@ button {
 .whitebutton {
 	background-image: url("../img/border-wht.png");
 	color: white;
+}
+
+footer .copyright {
+	width: 40%;
+	text-align: center;
+	color: #929292;
+	font-size: .8em;
+}
+
+@media (min-width: 600px) {
+	footer .copyright {
+		width: 100%;
+		text-align: left;
+	}
+}
+
+footer .media-icons img {
+	width: 100%;
 }
 
 /* 2. Content ================================= */
