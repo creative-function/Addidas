@@ -16,6 +16,7 @@ TABLE OF CONTENTS:
 /* 0. Reset ================================= */
 //@import 'reset';
 @import 'fonts';
+@import 'colors';
 @import 'media';
 
 
@@ -31,6 +32,9 @@ body {
 	font-family: $fontMain;
 }
 
+nav{
+	background-color:$AllStar_Black;
+}
 .col-box{
 	display:flex;
 	flex-direction: column;
@@ -50,6 +54,7 @@ button{
 	background-size: cover;
 	width:150px;
 	height: 55px;
+	font-size:1.2em;
 }
 
 .whitebutton{
@@ -60,79 +65,83 @@ button{
 
 /* 2. Content ================================= */
 
+body.pg1-home{
 
-.s1{
+	.s1{
 
-	.col-box0{
-		img{
-			width: 100%;
+		.col-box0{
+			background-color :$AllStar_Red;
+			img{
+				width: 100%;
+			}
 		}
-	}
-	.col-box1{
-		background-image: url("../img/redFull.png");
-		background-size: cover;
-		background-position-y: 30%;
+		.col-box1{
+			background-image: url("../img/redFull.png");
+			background-size: cover;
+			background-position-y: 30%;
 
-		@media#{$tablet}{
-			background-size: 200%;
-			background-position-x: 20%;
+			@media#{$tablet}{
+				background-size: 200%;
+				background-position-x: 20%;
+			}
+			img{
+				width: 50%;
+			}
+			@media#{$tablet}{
+				height: 50%;
+			}
 		}
-		img{
-			width: 50%;
-		}
-		@media#{$tablet}{
-			height: 50%;
+
+		.col-box2{
+			background-color:$AllStar_Navy;
+			img{
+				width:19%;
+			}
+			@media#{$tablet}{
+				height: 50%;
+			}
 		}
 	}
 
-	.col-box2{
-		background-color: rgb(16, 16, 67);
-		img{
-			width:19%;
+	.s2{
+		padding:3%;
+		.col-box0{
+			padding:2%;
 		}
-		@media#{$tablet}{
-			height: 50%;
+		.col-box1{
+			
+			p{
+				width: 85%;
+			}
+		}
+		.col-box2{
+			
+			.img-shoe{
+				margin:5%;
+				max-width: 100%;
+			}
 		}
 	}
-}
 
-.s2{
-	padding:3%;
-	.col-box0{
-		padding:2%;
-	}
-	.col-box1{
-		
-		p{
-			width: 85%;
+	.s3{
+		padding:3%;
+		color:white;
+		background-color:$AllStar_Red;
+		.col-box0{
+			padding:2%;
 		}
-	}
-	.col-box2{
-		
-		.img-shoe{
-			margin:5%;
-			max-width: 100%;
+		.col-box1{
+			p{
+				width: 72%;
+			}
 		}
-	}
-}
+		.col-box2{
+			display: flex;
+			justify-content: center;
 
-.s3{
-	padding:3%;
-	color:white;
-	.col-box0{
-		padding:2%;
-	}
-	.col-box1{
-		p{
-			width: 72%;
-		}
-	}
-	.col-box2{
-		display: flex;
-		justify-content: center;
-
-		.img-mask{
-			padding:1%;
+			.img-mask{
+				padding:1%;
+			}
 		}
 	}
 }

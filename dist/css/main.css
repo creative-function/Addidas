@@ -13,30 +13,6 @@ TABLE OF CONTENTS:
 ==============================================
 */
 /* 0. Reset ================================= */
-/*
-
-Futura PT Heavy
-    font-family: futura-pt, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-Futura PT Heavy Oblique
-    font-family: futura-pt, sans-serif;
-    font-weight: 700;
-    font-style: italic;
-Futura PT Book
-    font-family: futura-pt, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-Futura PT Book Oblique
-    font-family: futura-pt, sans-serif;
-    font-weight: 400;
-    font-style: italic;
-Futura PT Bold
-    font-family: futura-pt-bold, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-
-*/
 /* 1. Main Layout ================================= */
 * {
 	box-sizing: border-box;
@@ -44,6 +20,10 @@ Futura PT Bold
 
 body {
 	font-family: futura-pt, sans-serif;
+}
+
+nav {
+	background-color: #000000;
 }
 
 .col-box {
@@ -71,6 +51,7 @@ button {
 	background-size: cover;
 	width: 150px;
 	height: 55px;
+	font-size: 1.2em;
 }
 
 .whitebutton {
@@ -79,85 +60,90 @@ button {
 }
 
 /* 2. Content ================================= */
-.s1 .col-box0 img {
+body.pg1-home .s1 .col-box0 {
+	background-color: #d81e1e;
+}
+
+body.pg1-home .s1 .col-box0 img {
 	width: 100%;
 }
 
-.s1 .col-box1 {
+body.pg1-home .s1 .col-box1 {
 	background-image: url("../img/redFull.png");
 	background-size: cover;
 	background-position-y: 30%;
 }
 
 @media (min-width: 600px) {
-	.s1 .col-box1 {
+	body.pg1-home .s1 .col-box1 {
 		background-size: 200%;
 		background-position-x: 20%;
 	}
 }
 
-.s1 .col-box1 img {
+body.pg1-home .s1 .col-box1 img {
 	width: 50%;
 }
 
 @media (min-width: 600px) {
-	.s1 .col-box1 {
+	body.pg1-home .s1 .col-box1 {
 		height: 50%;
 	}
 }
 
-.s1 .col-box2 {
+body.pg1-home .s1 .col-box2 {
 	background-color: #101043;
 }
 
-.s1 .col-box2 img {
+body.pg1-home .s1 .col-box2 img {
 	width: 19%;
 }
 
 @media (min-width: 600px) {
-	.s1 .col-box2 {
+	body.pg1-home .s1 .col-box2 {
 		height: 50%;
 	}
 }
 
-.s2 {
+body.pg1-home .s2 {
 	padding: 3%;
 }
 
-.s2 .col-box0 {
+body.pg1-home .s2 .col-box0 {
 	padding: 2%;
 }
 
-.s2 .col-box1 p {
+body.pg1-home .s2 .col-box1 p {
 	width: 85%;
 }
 
-.s2 .col-box2 .img-shoe {
+body.pg1-home .s2 .col-box2 .img-shoe {
 	margin: 5%;
 	max-width: 100%;
 }
 
-.s3 {
+body.pg1-home .s3 {
 	padding: 3%;
 	color: white;
+	background-color: #d81e1e;
 }
 
-.s3 .col-box0 {
+body.pg1-home .s3 .col-box0 {
 	padding: 2%;
 }
 
-.s3 .col-box1 p {
+body.pg1-home .s3 .col-box1 p {
 	width: 72%;
 }
 
-.s3 .col-box2 {
+body.pg1-home .s3 .col-box2 {
 	display: -webkit-box;
 	display: flex;
 	-webkit-box-pack: center;
 	        justify-content: center;
 }
 
-.s3 .col-box2 .img-mask {
+body.pg1-home .s3 .col-box2 .img-mask {
 	padding: 1%;
 }
 

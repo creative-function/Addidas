@@ -1,0 +1,304 @@
+/* 0. Reset ================================= */
+/* 
+==============================================
+CONTENT:	Project Name Here
+AUTHOR:		Your Name Here
+==============================================
+
+TABLE OF CONTENTS:
+
+0. Reset
+1. Main Layout
+2. Content
+
+==============================================
+*/
+/* 0. Reset ================================= */
+/* 1. Main Layout ================================= */
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: futura-pt, sans-serif;
+}
+
+nav {
+	background-color: #000000;
+}
+
+.col-box {
+	display: -webkit-box;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	        justify-content: center;
+}
+
+.col-box p {
+	margin-top: 1%;
+	font-size: 1.3em;
+	color: lightgray;
+}
+
+button {
+	border: none;
+	background-color: transparent;
+	background-image: url("../img/border-blk.png");
+	background-size: cover;
+	width: 150px;
+	height: 55px;
+	font-size: 1.2em;
+}
+
+.whitebutton {
+	background-image: url("../img/border-wht.png");
+	color: white;
+}
+
+/* 2. Content ================================= */
+body.pg1-home .s1 .col-box0 {
+	background-color: #d81e1e;
+}
+
+body.pg1-home .s1 .col-box0 img {
+	width: 100%;
+}
+
+body.pg1-home .s1 .col-box1 {
+	background-image: url("../img/redFull.png");
+	background-size: cover;
+	background-position-y: 30%;
+}
+
+@media (min-width: 600px) {
+	body.pg1-home .s1 .col-box1 {
+		background-size: 200%;
+		background-position-x: 20%;
+	}
+}
+
+body.pg1-home .s1 .col-box1 img {
+	width: 50%;
+}
+
+@media (min-width: 600px) {
+	body.pg1-home .s1 .col-box1 {
+		height: 50%;
+	}
+}
+
+body.pg1-home .s1 .col-box2 {
+	background-color: #101043;
+}
+
+body.pg1-home .s1 .col-box2 img {
+	width: 19%;
+}
+
+@media (min-width: 600px) {
+	body.pg1-home .s1 .col-box2 {
+		height: 50%;
+	}
+}
+
+body.pg1-home .s2 {
+	padding: 3%;
+}
+
+body.pg1-home .s2 .col-box0 {
+	padding: 2%;
+}
+
+body.pg1-home .s2 .col-box1 p {
+	width: 85%;
+}
+
+body.pg1-home .s2 .col-box2 .img-shoe {
+	margin: 5%;
+	max-width: 100%;
+}
+
+body.pg1-home .s3 {
+	padding: 3%;
+	color: white;
+	background-color: #d81e1e;
+}
+
+body.pg1-home .s3 .col-box0 {
+	padding: 2%;
+}
+
+body.pg1-home .s3 .col-box1 p {
+	width: 72%;
+}
+
+body.pg1-home .s3 .col-box2 {
+	display: -webkit-box;
+	display: flex;
+	-webkit-box-pack: center;
+	        justify-content: center;
+}
+
+body.pg1-home .s3 .col-box2 .img-mask {
+	padding: 1%;
+}
+
+body.pg2-shopping #page-wrapper #aside-mobile .col-mobile-menu span {
+	color: #101043;
+}
+
+body.pg2-shopping #page-wrapper #aside-mobile .col-mobile-menu a {
+	text-decoration: none;
+	color: #d81e1e;
+}
+
+body.pg2-shopping #page-wrapper #aside-mobile .col-mobile-menu a:hover {
+	color: #101043;
+}
+
+body.pg2-shopping #page-wrapper #aside-mobile .col-mobile-menu a.select {
+	color: #101043;
+}
+
+body.pg2-shopping #page-wrapper #aside-menu .col-side-menu {
+	background-color: #ffffff;
+}
+
+body.pg2-shopping #page-wrapper #aside-menu .col-side-menu ul.side-menu {
+	font-size: 1.2em;
+	padding: 0;
+	list-style: none;
+	font-weight: bold;
+}
+
+body.pg2-shopping #page-wrapper #aside-menu .col-side-menu ul.side-menu a {
+	color: #d81e1e;
+	text-decoration: none;
+}
+
+body.pg2-shopping #page-wrapper #aside-menu .col-side-menu ul.side-menu a:hover {
+	color: #101043;
+}
+
+body.pg2-shopping #page-wrapper #aside-menu .col-side-menu ul.side-menu li {
+	margin: 15% 0;
+}
+
+body.pg2-shopping #page-wrapper #aside-menu .col-side-menu ul.side-menu ul.sub-menu {
+	list-style: none;
+	padding-left: 20px;
+	font-size: .9em;
+	font-weight: 100;
+}
+
+body.pg2-shopping #page-wrapper #aside-menu .col-side-menu ul.side-menu ul.sub-menu li {
+	margin: 5% 0;
+}
+
+body.pg2-shopping #page-wrapper #main-content .s1 {
+	background-color: #d81e1e;
+}
+
+body.pg2-shopping #page-wrapper #main-content .s1 .col-box0 .box0-text {
+	background-color: goldenrod;
+	height: 100%;
+}
+
+body.pg2-shopping #page-wrapper #main-content .s1 .col-box1 {
+	position: relative;
+}
+
+body.pg2-shopping #page-wrapper #main-content .s1 .col-box1 img.img-mobile {
+	width: 100%;
+	display: block;
+}
+
+@media (min-width: 770px) {
+	body.pg2-shopping #page-wrapper #main-content .s1 .col-box1 img.img-mobile {
+		display: none;
+	}
+}
+
+body.pg2-shopping #page-wrapper #main-content .s1 .col-box1 img.img-retail {
+	width: 100%;
+	display: none;
+}
+
+@media (min-width: 770px) {
+	body.pg2-shopping #page-wrapper #main-content .s1 .col-box1 img.img-retail {
+		display: block;
+	}
+}
+
+body.pg2-shopping #page-wrapper #main-content .s1 .col-box1 button.float {
+	position: absolute;
+	background-image: none;
+	top: 35%;
+	left: 19%;
+}
+
+@media (min-width: 770px) {
+	body.pg2-shopping #page-wrapper #main-content .s1 .col-box1 button.float {
+		top: 45%;
+		left: 74%;
+	}
+}
+
+body.pg2-shopping #page-wrapper #main-content .s2 {
+	background-color: #ffffff;
+}
+
+body.pg2-shopping #page-wrapper #main-content .s2 .row {
+	margin: 10% 0;
+}
+
+body.pg2-shopping #page-wrapper #main-content .s2 .row .col-box0 .box0-text .prod-name {
+	color: #d81e1e;
+	font-size: 1.5em;
+	font-weight: 700;
+	text-align: center;
+	width: 250px;
+}
+
+@media (min-width: 770px) {
+	body.pg2-shopping #page-wrapper #main-content .s2 .row .col-box0 .box0-text .prod-name {
+		text-align: left;
+	}
+}
+
+body.pg2-shopping #page-wrapper #main-content .s2 .row .col-box0 .box0-text .prod-price {
+	margin: 5% 0;
+	width: 50%;
+	text-align: center;
+}
+
+@media (min-width: 770px) {
+	body.pg2-shopping #page-wrapper #main-content .s2 .row .col-box0 .box0-text .prod-price {
+		text-align: left;
+	}
+}
+
+body.pg2-shopping #page-wrapper #main-content .s2 .row .col-box1 .box1-img {
+	width: 100%;
+}
+
+body.pg2-shopping #page-wrapper #main-content .s2 .row .col-box1 .box1-img .img-sword {
+	width: 100%;
+}
+
+@media (min-width: 1360px) {
+	body.pg2-shopping #page-wrapper #main-content .s2 .row .col-box1 .box1-img .img-sword {
+		max-width: 85%;
+	}
+}
+
+body.pg2-shopping #page-wrapper #main-content .s2 .row1 {
+	margin-top: 0;
+}
+
+/*# sourceMappingURL=page2.css.map */

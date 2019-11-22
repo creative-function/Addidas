@@ -1,0 +1,166 @@
+/* 0. Reset ================================= */
+//@import 'reset';
+@import 'main';
+
+
+
+
+
+
+body.pg2-shopping{
+
+   #page-wrapper{
+        #aside-mobile{
+            .col-mobile-menu{
+                span{
+                    color:$AllStar_Navy;
+                }
+
+                a{
+                    text-decoration: none;
+                    color:$AllStar_Red;
+                }
+
+                a:hover{
+                    color:$AllStar_Navy;
+                }
+
+                a.select{
+                    color:$AllStar_Navy;
+                }
+           }
+        }
+        #aside-menu{
+            .col-side-menu{
+                background-color: $AllStar_White;
+
+                ul.side-menu{
+                    a{
+                        color:$AllStar_Red;
+                        text-decoration: none;
+                    }
+                    a:hover{
+                        color:$AllStar_Navy;
+                    }
+                    font-size:1.2em;
+                    padding:0;
+                    list-style: none;
+                    font-weight: bold;
+    
+                   li{margin: 15% 0;}
+                   
+                    ul.sub-menu{
+                        list-style: none;
+                        padding-left:20px;
+                        font-size:.9em;
+                        font-weight: 100;
+                        li{ margin: 5% 0;}
+                    }
+
+
+                }
+
+            }
+        }
+
+        #main-content{
+
+            .s1{
+                background-color: $AllStar_Red;
+                .col-box0{
+                    .box0-text{
+                        background-color:goldenrod;                
+                        height: 100%;
+                    }
+                }
+                .col-box1{
+                    position: relative;
+                    img.img-mobile{
+                        width: 100%;
+                        display: block;
+                        @media#{$desktop}{
+                            display: none;
+                        }
+                    }
+
+                    img.img-retail{
+                        width: 100%;
+                        display: none;
+                        @media#{$desktop}{
+                            display: block;
+                        }
+                    }
+
+                    button.float{
+                        position: absolute;
+                        background-image: none;
+                        top:35%;
+                        left:19%;
+                        @media#{$desktop}{
+                            top:45%;
+                            left:74%;
+                        }
+                        
+                    }
+                }
+            
+            }
+
+            .s2{
+                background-color: $AllStar_White;
+                
+                .row{
+                   // background-color: greenyellow;
+                    margin: 10% 0;
+                        .col-box0{     
+                            .box0-text{
+                            // background-color: greenyellow;
+                                
+                                .prod-name{
+                                    //background-color: black;
+                                    color:$AllStar_Red;
+                                    font-size:1.5em;
+                                    font-weight: 700;
+                                    text-align: center;
+                                    width:250px;
+                                    @media#{$desktop}{
+                                        text-align: left;
+                                    }
+                                }
+
+                                .prod-price{
+                                // background-color: blue;
+                                margin:5% 0;
+                                    width: 50%;
+                                    text-align: center;
+                                    @media#{$desktop}{
+                                        text-align: left;
+                                    }
+                                }
+
+                            
+                            }
+
+                        }
+                        .col-box1{
+                            .box1-img{
+                                width: 100%;
+                                .img-sword{
+                                    width: 100%;
+                                    @media#{$XLdesktop}{
+                                        max-width: 85%;
+                                    }
+                                }
+                            }
+                        }
+                }
+
+                .row1{
+                    margin-top:0;
+                }
+            }
+        }  
+    }
+
+}
+
