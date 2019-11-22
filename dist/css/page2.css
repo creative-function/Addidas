@@ -24,7 +24,85 @@ body {
 }
 
 nav {
-	background-color: #000000;
+	background-color: #e02222;
+}
+
+@media (min-width: 770px) {
+	nav {
+		background-color: #000000;
+	}
+}
+
+nav .sN-assets .shop-icons {
+	width: 20%;
+}
+
+@media (min-width: 770px) {
+	nav .sN-assets .shop-icons {
+		width: 15%;
+	}
+}
+
+@media (min-width: 1360px) {
+	nav .sN-assets .shop-icons {
+		width: 10%;
+	}
+}
+
+nav .sN-assets .shop-icons img {
+	width: 100%;
+}
+
+nav .sN-assets .user {
+	color: #ffffff;
+	width: 40%;
+	font-size: 1.7em;
+}
+
+nav .sN-assets .user .logout {
+	font-size: .8em;
+}
+
+nav .sN-assets .user .logout a {
+	color: #ffffff;
+}
+
+nav .sN-assets .user img {
+	width: 100%;
+}
+
+nav .sN-assets .nav-logo {
+	width: 40%;
+}
+
+@media (min-width: 1360px) {
+	nav .sN-assets .nav-logo {
+		width: 35%;
+	}
+}
+
+nav .sN-assets .nav-logo img {
+	width: 100%;
+}
+
+nav .sN-hamburger .hamburger {
+	width: 50%;
+}
+
+nav .sN-hamburger .hamburger img {
+	width: 100%;
+}
+
+@media (min-width: 770px) {
+	nav .sN-hamburger .hamburger {
+		max-width: 40%;
+	}
+}
+
+@media (min-width: 1360px) {
+	nav .sN-hamburger .hamburger {
+		max-width: 30%;
+	}
 }
 
 .col-box {
@@ -62,7 +140,7 @@ button {
 
 /* 2. Content ================================= */
 body.pg1-home .s1 .col-box0 {
-	background-color: #d81e1e;
+	background-color: #e02222;
 }
 
 body.pg1-home .s1 .col-box0 img {
@@ -126,7 +204,7 @@ body.pg1-home .s2 .col-box2 .img-shoe {
 body.pg1-home .s3 {
 	padding: 3%;
 	color: white;
-	background-color: #d81e1e;
+	background-color: #e02222;
 }
 
 body.pg1-home .s3 .col-box0 {
@@ -148,94 +226,94 @@ body.pg1-home .s3 .col-box2 .img-mask {
 	padding: 1%;
 }
 
-body.pg2-shopping #page-wrapper #aside-mobile .col-mobile-menu span {
+#page2-shopping #aside-mobile .col-mobile-menu span {
 	color: #101043;
 }
 
-body.pg2-shopping #page-wrapper #aside-mobile .col-mobile-menu a {
+#page2-shopping #aside-mobile .col-mobile-menu a {
 	text-decoration: none;
-	color: #d81e1e;
+	color: #e02222;
 }
 
-body.pg2-shopping #page-wrapper #aside-mobile .col-mobile-menu a:hover {
+#page2-shopping #aside-mobile .col-mobile-menu a:hover {
 	color: #101043;
 }
 
-body.pg2-shopping #page-wrapper #aside-mobile .col-mobile-menu a.select {
+#page2-shopping #aside-mobile .col-mobile-menu a.select {
 	color: #101043;
 }
 
-body.pg2-shopping #page-wrapper #aside-menu .col-side-menu {
+#page2-shopping #aside-menu .col-side-menu {
 	background-color: #ffffff;
 }
 
-body.pg2-shopping #page-wrapper #aside-menu .col-side-menu ul.side-menu {
+#page2-shopping #aside-menu .col-side-menu ul.side-menu {
 	font-size: 1.2em;
 	padding: 0;
 	list-style: none;
 	font-weight: bold;
 }
 
-body.pg2-shopping #page-wrapper #aside-menu .col-side-menu ul.side-menu a {
-	color: #d81e1e;
+#page2-shopping #aside-menu .col-side-menu ul.side-menu a {
+	color: #e02222;
 	text-decoration: none;
 }
 
-body.pg2-shopping #page-wrapper #aside-menu .col-side-menu ul.side-menu a:hover {
+#page2-shopping #aside-menu .col-side-menu ul.side-menu a:hover {
 	color: #101043;
 }
 
-body.pg2-shopping #page-wrapper #aside-menu .col-side-menu ul.side-menu li {
+#page2-shopping #aside-menu .col-side-menu ul.side-menu li {
 	margin: 15% 0;
 }
 
-body.pg2-shopping #page-wrapper #aside-menu .col-side-menu ul.side-menu ul.sub-menu {
+#page2-shopping #aside-menu .col-side-menu ul.side-menu ul.sub-menu {
 	list-style: none;
 	padding-left: 20px;
 	font-size: .9em;
 	font-weight: 100;
 }
 
-body.pg2-shopping #page-wrapper #aside-menu .col-side-menu ul.side-menu ul.sub-menu li {
+#page2-shopping #aside-menu .col-side-menu ul.side-menu ul.sub-menu li {
 	margin: 5% 0;
 }
 
-body.pg2-shopping #page-wrapper #main-content .s1 {
-	background-color: #d81e1e;
+#page2-shopping #main-content .s1 {
+	background-color: #e02222;
 }
 
-body.pg2-shopping #page-wrapper #main-content .s1 .col-box0 .box0-text {
+#page2-shopping #main-content .s1 .col-box0 .box0-text {
 	background-color: goldenrod;
 	height: 100%;
 }
 
-body.pg2-shopping #page-wrapper #main-content .s1 .col-box1 {
+#page2-shopping #main-content .s1 .col-box1 {
 	position: relative;
 }
 
-body.pg2-shopping #page-wrapper #main-content .s1 .col-box1 img.img-mobile {
+#page2-shopping #main-content .s1 .col-box1 img.img-mobile {
 	width: 100%;
 	display: block;
 }
 
 @media (min-width: 770px) {
-	body.pg2-shopping #page-wrapper #main-content .s1 .col-box1 img.img-mobile {
+	#page2-shopping #main-content .s1 .col-box1 img.img-mobile {
 		display: none;
 	}
 }
 
-body.pg2-shopping #page-wrapper #main-content .s1 .col-box1 img.img-retail {
+#page2-shopping #main-content .s1 .col-box1 img.img-retail {
 	width: 100%;
 	display: none;
 }
 
 @media (min-width: 770px) {
-	body.pg2-shopping #page-wrapper #main-content .s1 .col-box1 img.img-retail {
+	#page2-shopping #main-content .s1 .col-box1 img.img-retail {
 		display: block;
 	}
 }
 
-body.pg2-shopping #page-wrapper #main-content .s1 .col-box1 button.float {
+#page2-shopping #main-content .s1 .col-box1 button.float {
 	position: absolute;
 	background-image: none;
 	top: 35%;
@@ -243,22 +321,22 @@ body.pg2-shopping #page-wrapper #main-content .s1 .col-box1 button.float {
 }
 
 @media (min-width: 770px) {
-	body.pg2-shopping #page-wrapper #main-content .s1 .col-box1 button.float {
+	#page2-shopping #main-content .s1 .col-box1 button.float {
 		top: 45%;
 		left: 74%;
 	}
 }
 
-body.pg2-shopping #page-wrapper #main-content .s2 {
+#page2-shopping #main-content .s2 {
 	background-color: #ffffff;
 }
 
-body.pg2-shopping #page-wrapper #main-content .s2 .row {
+#page2-shopping #main-content .s2 .row {
 	margin: 10% 0;
 }
 
-body.pg2-shopping #page-wrapper #main-content .s2 .row .col-box0 .box0-text .prod-name {
-	color: #d81e1e;
+#page2-shopping #main-content .s2 .row .col-box0 .box0-text .prod-name {
+	color: #e02222;
 	font-size: 1.5em;
 	font-weight: 700;
 	text-align: center;
@@ -266,38 +344,38 @@ body.pg2-shopping #page-wrapper #main-content .s2 .row .col-box0 .box0-text .pro
 }
 
 @media (min-width: 770px) {
-	body.pg2-shopping #page-wrapper #main-content .s2 .row .col-box0 .box0-text .prod-name {
+	#page2-shopping #main-content .s2 .row .col-box0 .box0-text .prod-name {
 		text-align: left;
 	}
 }
 
-body.pg2-shopping #page-wrapper #main-content .s2 .row .col-box0 .box0-text .prod-price {
+#page2-shopping #main-content .s2 .row .col-box0 .box0-text .prod-price {
 	margin: 5% 0;
 	width: 50%;
 	text-align: center;
 }
 
 @media (min-width: 770px) {
-	body.pg2-shopping #page-wrapper #main-content .s2 .row .col-box0 .box0-text .prod-price {
+	#page2-shopping #main-content .s2 .row .col-box0 .box0-text .prod-price {
 		text-align: left;
 	}
 }
 
-body.pg2-shopping #page-wrapper #main-content .s2 .row .col-box1 .box1-img {
+#page2-shopping #main-content .s2 .row .col-box1 .box1-img {
 	width: 100%;
 }
 
-body.pg2-shopping #page-wrapper #main-content .s2 .row .col-box1 .box1-img .img-sword {
+#page2-shopping #main-content .s2 .row .col-box1 .box1-img .img-sword {
 	width: 100%;
 }
 
 @media (min-width: 1360px) {
-	body.pg2-shopping #page-wrapper #main-content .s2 .row .col-box1 .box1-img .img-sword {
+	#page2-shopping #main-content .s2 .row .col-box1 .box1-img .img-sword {
 		max-width: 85%;
 	}
 }
 
-body.pg2-shopping #page-wrapper #main-content .s2 .row1 {
+#page2-shopping #main-content .s2 .row1 {
 	margin-top: 0;
 }
 

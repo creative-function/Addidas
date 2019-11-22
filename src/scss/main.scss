@@ -33,7 +33,76 @@ body {
 }
 
 nav{
-	background-color:$AllStar_Black;
+	background-color:$AllStar_Red;
+	@media#{$desktop}{
+		background-color:$AllStar_Black;
+	}
+
+	.sN-assets{
+		//background-color: pink;
+		.shop-icons{
+			//background-color: pink;
+			width:20%;
+			@media#{$desktop}{
+				width:15%;
+			}
+			@media#{$XLdesktop}{
+				width:10%;
+			}
+			img{
+				width:100%;
+			}
+		
+		}
+
+		.user{
+			//background-color: green;
+			color:$AllStar_White;
+			width:40%;
+			font-size: 1.7em;
+
+			.logout{
+				font-size: .8em;
+
+				a{
+					color:$AllStar_White;
+				}
+			}
+
+			img{
+				width:100%;
+			}
+		}
+
+		.nav-logo{
+			//background-color: blue;
+			width:40%;
+			@media#{$XLdesktop}{
+				width:35%;
+			}
+			img{
+				width:100%;
+			}
+		}
+		
+	}
+
+	.sN-hamburger{
+		.hamburger{
+			width:50%;
+			img{
+				width:100%;
+			}
+			@media#{$desktop}{
+				max-width:40%;
+			}
+			@media#{$XLdesktop}{
+				max-width:30%;
+			}
+		}
+	}
+
+
 }
 .col-box{
 	display:flex;

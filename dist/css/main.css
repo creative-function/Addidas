@@ -23,7 +23,85 @@ body {
 }
 
 nav {
-	background-color: #000000;
+	background-color: #e02222;
+}
+
+@media (min-width: 770px) {
+	nav {
+		background-color: #000000;
+	}
+}
+
+nav .sN-assets .shop-icons {
+	width: 20%;
+}
+
+@media (min-width: 770px) {
+	nav .sN-assets .shop-icons {
+		width: 15%;
+	}
+}
+
+@media (min-width: 1360px) {
+	nav .sN-assets .shop-icons {
+		width: 10%;
+	}
+}
+
+nav .sN-assets .shop-icons img {
+	width: 100%;
+}
+
+nav .sN-assets .user {
+	color: #ffffff;
+	width: 40%;
+	font-size: 1.7em;
+}
+
+nav .sN-assets .user .logout {
+	font-size: .8em;
+}
+
+nav .sN-assets .user .logout a {
+	color: #ffffff;
+}
+
+nav .sN-assets .user img {
+	width: 100%;
+}
+
+nav .sN-assets .nav-logo {
+	width: 40%;
+}
+
+@media (min-width: 1360px) {
+	nav .sN-assets .nav-logo {
+		width: 35%;
+	}
+}
+
+nav .sN-assets .nav-logo img {
+	width: 100%;
+}
+
+nav .sN-hamburger .hamburger {
+	width: 50%;
+}
+
+nav .sN-hamburger .hamburger img {
+	width: 100%;
+}
+
+@media (min-width: 770px) {
+	nav .sN-hamburger .hamburger {
+		max-width: 40%;
+	}
+}
+
+@media (min-width: 1360px) {
+	nav .sN-hamburger .hamburger {
+		max-width: 30%;
+	}
 }
 
 .col-box {
@@ -61,7 +139,7 @@ button {
 
 /* 2. Content ================================= */
 body.pg1-home .s1 .col-box0 {
-	background-color: #d81e1e;
+	background-color: #e02222;
 }
 
 body.pg1-home .s1 .col-box0 img {
@@ -125,7 +203,7 @@ body.pg1-home .s2 .col-box2 .img-shoe {
 body.pg1-home .s3 {
 	padding: 3%;
 	color: white;
-	background-color: #d81e1e;
+	background-color: #e02222;
 }
 
 body.pg1-home .s3 .col-box0 {
