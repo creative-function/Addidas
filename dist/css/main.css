@@ -24,12 +24,12 @@ nav {
 }
 
 nav .sN-assets .shop-icons {
-	width: 20%;
+	width: 30%;
 }
 
 @media (min-width: 770px) {
 	nav .sN-assets .shop-icons {
-		width: 10%;
+		max-width: 15%;
 	}
 }
 
@@ -56,7 +56,13 @@ nav .sN-assets .user img {
 }
 
 nav .sN-assets .nav-logo {
-	width: 35%;
+	width: 50%;
+}
+
+@media (min-width: 770px) {
+	nav .sN-assets .nav-logo {
+		width: 35%;
+	}
 }
 
 nav .sN-assets .nav-logo img {
@@ -73,7 +79,13 @@ nav .sN-hamburger .hamburger img {
 
 @media (min-width: 770px) {
 	nav .sN-hamburger .hamburger {
-		max-width: 30%;
+		max-width: 40%;
+	}
+}
+
+@media XLdesktop {
+	nav .sN-hamburger .hamburger {
+		max-width: 20%;
 	}
 }
 

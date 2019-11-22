@@ -73,7 +73,7 @@ nav .sN-hamburger .hamburger img {
 
 @media (min-width: 770px) {
 	nav .sN-hamburger .hamburger {
-		max-width: 30%;
+		max-width: 20%;
 	}
 }
 
